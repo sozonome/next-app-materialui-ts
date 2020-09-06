@@ -2,9 +2,10 @@ import { useEffect } from "react";
 import { ThemeProvider, CssBaseline } from "@material-ui/core";
 import PropTypes from "prop-types";
 
+import Layout from "../components/layout";
+
 import theme from "../styles/theme";
 import "../styles/globals.css";
-import Layout from "../components/layout";
 
 const MyApp = ({ Component, pageProps }) => {
   useEffect(() => {
